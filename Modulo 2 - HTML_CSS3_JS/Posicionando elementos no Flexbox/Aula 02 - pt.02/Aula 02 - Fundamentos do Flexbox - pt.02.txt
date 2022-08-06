@@ -1,0 +1,34 @@
+------------------------------------------------------------------------
+Align-self
+- É a propriedade que estabelece o alinhamento de modo individual sobree um determinado item.
+
+OBS:não pode haver um align-item definido
+
+- auto
+- flex-start
+- flex-end
+- center
+- stretch
+- baseline
+------------------------------------------------------------------------
+Order
+- Você ordena seus elementos conforme sua necessidade
+------------------------------------------------------------------------
+Flex
+- Esta propriedade é um atalho ou abreviação de escrita para as propriedades: grow, shrink e basis.
+-------------------------------------------------------------------------
+Flex-Shrink
+- É a propriedade que estabelece a capacidade de redução ou compressão do tamanho de um item.
+-------------------------------------------------------------------------
+
+Flex-basis
+- É a propriedade que estabelece o tamanho inical do item antes da distribuição de espaço restante dentro dele, usando como a base o contéudo interno disposto.
+
+--> auto
+--> px,%,em....
+--> 0 = flex grow.
+-------------------------------------------------------------------------
+Estrutura básica e prática com flex grow
+- Define a proporcionalidade de crescimentos dos itens respeitando o tamanho de seus conteúdos internos.
+
+OBS: Não funciona com justify-content.

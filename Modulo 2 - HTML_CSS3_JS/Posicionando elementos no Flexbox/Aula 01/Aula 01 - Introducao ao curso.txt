@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------
+
+Introdução ao Flex Box
+
+- Ideia de um modelo de layout unidimensional e como um metódo que pode oferecer distribuição de espaço entre itens em uma interface e recursos.
+
+- Flex Container 
+--> É a tag que envolve os itens, será nela que iremos aplicar a propriedade "display:Flex". Transforma todos os seus itens filhos em flex itens. 
+
+Propriedades
+- display
+- flex-direction
+- flex-wrap
+- flex-flow
+- justify-content
+- align-itens
+- align-content
+
+- Flex Item
+--> São os elementos filhos diretos do Flex Container. E também podem se tornar Flex Container.
+
+Propriedades
+- flex-grow
+- flax-basis
+- flex-shrink
+- flex
+- order
+- align-self

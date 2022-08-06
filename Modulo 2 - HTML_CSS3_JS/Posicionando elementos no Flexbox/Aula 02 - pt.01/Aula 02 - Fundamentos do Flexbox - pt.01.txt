@@ -1,0 +1,67 @@
+
+Align-content
+--> É a propriedade responsável por tratar o alinhamento das linhas do container em relação ao eixo vertical do container.
+
+---> Utiliza quebra de linhas
+---> A altura do container deve ser maior que a somoa das linhas dos itens
+
+- center
+- stretch
+- flex-start
+- flex-end
+- Space-between
+- Space-around
+
+------------------------------------------------------------------------
+Align-items
+--> Trata do alinhamento dos flex itens de acordo com o eixo do container.
+--> Muda dependendo do eixo.
+--> Permite alinhar no centro do eixo vertical. 
+--> Não precisa conhecer os valores de width e height se adequa.
+
+- center
+- stretch
+- flex-start
+- flex-end
+- baseline
+
+------------------------------------------------------------------------
+Justify Content
+- Essa propriedade vai se encarregar de alinhar os itens dentro do container de acordo com a direção pretendida e tratar da distritbuição de espaçamento entre eles.
+--> Não se aplica a itens de 100% de ocupação.
+
+- Flex-start
+- Flex-end
+- Center
+- Space-between
+- Space-around
+
+------------------------------------------------------------------------
+Flex-flow
+- É um atalho para as propriedades Flex-direction e flex-wrap.
+
+-------------------------------------------------------------------------
+Flex Warp
+- É a propriedade que define se os itens devem ou não quebrar a linha.
+- Por padrão não quebram linhas.
+- Compactam além do limite do conteúdo.
+
+--> no warp / Wrap
+--> Wrap-reverse
+
+-------------------------------------------------------------------------
+Estrutura básica do flex direction
+- Flex container comportamento padrão horizontal
+
+--> Flex-direction: É a propriedade que estabelece o eixo principal do container, definindo assim a direção que os flex são colocados no flex container.
+- row / row reverse / column / column reverse 
+
+-------------------------------------------------------------------------
+Estrutura básica do display:flex
+
+- Torna a tag um elemento do tipo flex container, e assim automaticamente todos os seus filhos diretos desta tag, torna-se em flex items.
+
+- HTML Snippets
+- Live HTML Previewer
+
+Crtl+shift+P -> Show Live Server Preview
