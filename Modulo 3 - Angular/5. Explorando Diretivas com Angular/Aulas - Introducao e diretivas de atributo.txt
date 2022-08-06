@@ -1,0 +1,10 @@
+
+--------------------------------------------------------------------------
+Comandos
+
+1. npm install bootstrap
+2. ng g d nomeDaDiretiva
+
+https://www.netlify.com/
+
+Slide: https://drive.google.com/file/d/15eBGTxkQFwICWfCRO_I0H4uWIoY4fgQx/view
