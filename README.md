@@ -1,4 +1,5 @@
 # DIO_Bootcamp_Santander_2022-main
+![image](https://user-images.githubusercontent.com/39927905/183262571-fbebde16-8387-4e0f-b173-2b4eaee8b985.png)
 
 Central de Ajuda - Dùvidas frequentes e/ou bugs;
 
