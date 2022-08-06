@@ -1,0 +1,34 @@
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+Operações do SSL 
+
+Handshake -> Key Derivation -> Data transfer
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+Protocolo SSL (Secure Socket Layer)
+
+-> Segurança para conexões TCP.
+-> Confidencialidade.
+-> Integridade.
+-> Autenticidade endipoint.
+
+Version 3 : TLS (Transport Layer Security) - RFC 4346
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+Conceitos básicos de segurança da informação.
+
+Criptografia por chave
+
+-> Assimétrica: 
+- Chave-privada: Assinatura-criptografia
+- Chave pública: Verificação de autenticidade
+
+-> Simétrica
+- Chave única privada: Conhecimento prévio da chave ( cifra por fluxo / cifra por bloco)
+
+Certificado Digital
+-> Entidade certificadora: Certification Authority - CA
+- Verificação de identidade / Emissão de certificados.

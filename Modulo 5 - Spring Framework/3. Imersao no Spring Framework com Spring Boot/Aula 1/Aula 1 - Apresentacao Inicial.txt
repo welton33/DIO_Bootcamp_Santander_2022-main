@@ -1,0 +1,45 @@
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+Spring Framework - Fundamentos
+
+-> Framework open source desenvolvido para plataforma Java baseado nos padrões de projetos inversão de controle e injeção de dependência.
+
+-> É composta por módulos afins de reduzir a complexidade no desenvolvimento de aplicações simples ou corporativa.
+
+Inversão de Controle (IoC)
+
+-> Trata-se do redirecionamento do fluxo de execução de um código retirando parcialmente o controle sobre ele e delegando-o para um container.
+-> Foco em minimizar o acoplamento do código.
+
+Injeção de Dependências
+
+-> É um padrão de desenvolvimento com a finalidade de manter baixo o nível de acoplamento entre módulos de um sistema.
+
+Beans
+
+-> É um objeto que é instanciado, montado e gerenciado por um container através da IoC.
+
+Scopes
+
+*Singleton: O container define um único objeto.
+
+*Prototype: Criado um novo objeto a cada solicitação ao container.
+
+*HTTP 
+
+-> Request: Um bean será criado para cada requisição HTTP 
+--> Os objetos existirão enquanto a requisição estiver em execução.
+
+-> Session: Um bean será criado para sessão de usuário.
+--> Acesso a solicitação duas vezes para testes específicos na web.
+
+-> Global: Cria um bean para o ciclo de vida do contexto da aplicação.
+--> Objetos compartilhados por toda aplicação.
+
+
+Autowired
+-> Uma anotação (indicação) onde deverá ocorrer uma injeção automática de dependência.
+- byName / byType / byConstrutor
+
+Slides: https://docs.google.com/presentation/d/1VfMegq5Je5qO4IP8chi2x4YR4ACOfBbN/edit#slide=id.p2

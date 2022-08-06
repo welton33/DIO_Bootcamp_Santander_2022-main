@@ -1,0 +1,77 @@
+
+Variáveis de ambiente
+-> Variável de ambiente pode ser injetada através da anotação @Value no projeto.
+-> @Value ({NOME_VARIAVEL})
+-> Valor default quando não há.
+
+* Linux e Mac: export comum variável 
+ export ENV_DB_URL=jdbc:h2:mem:db;DB_CLOSE_DELAY=-1
+
+* Windows: padrão de variável de ambiente.
+
+Exercicio:
+-> Injetar @Value em AppController
+-> Definir valor default com @Value
+-> Criar método para chamr novo método e exibir valor.
+-> Executar projeto
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+Configurando com YAML
+-> Troca no formato de configurações:Formato .YML
+
+application.properties 
+ basic.value: true
+ basic.message: Dynamic Message
+ basic.number: 100
+
+apllication.yaml
+ value: true
+ message: Dynamic Message YAML
+ number: 100
+
+Exercicio
+-> Migrar app.properties do profile dev para .YML
+-> Executar
+
+Commando line
+-> Propriedades do arquvio de configuração na linha de comando.
+-> Sobrescreve as propriedades definidas no arquivo de configurações padrão.
+-> Valores passados como argumento na execução do projeto.
+
+Comandos
+
+1. mvn spring-boot:run -Dserver.port=8085
+
+Exercicio
+-> Passar como argumento a propriedade server.port=8085
+-> Executar o projeto no terminal com o argumento
+-> Abrir no navegador com a nova porta
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+Múltiplos Ambientes
+
+-> Ambientes para desenvolvimento, teste e produção.
+-> Bancos de dados para cada ambiente.
+-> Execução de testes unitários em ambiente local.
+-> Suíte de testes completas em ambiente de teste.
+-> Simulação do ambiente real em stagging.
+-> Deploy simplificado em produção.
+
+Spring Boot Profiles
+
+-> Configurações próprias para cada ambiente.
+-> Ambientes com sua configuração: dev, production.
+
+Exercicio
+
+*Criação do projeto com spring.initialzr e importação na IDE.
+*Criação de arquivos application.properties para dev e prod.
+*Desenvolvimento de classe de configuração de BD e anotação com @Configuration.
+*Mapeamento de propriedades com @ConfigurationProperties na classe de configuração acima.
+*Métodos para instanciação de Beans de banco de dados para cada ambiente.
+*Desenvolvimento de classe para execução no Browser anotada com @RestController.
+*Injeção da propriedade app.message na variável appMesagge do Controller com a anotação @Value.
+*Criação de método para retornar a mensagem injetada acima.
+*Execução do projeto no browser.

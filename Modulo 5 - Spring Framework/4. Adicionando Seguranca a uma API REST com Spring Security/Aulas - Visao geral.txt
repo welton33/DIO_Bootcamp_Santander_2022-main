@@ -1,0 +1,28 @@
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+Introdução
+
+-> Spring Security é apenas um grupo de filtros de servelet que ajudam adicionar autenticação e autorização ao aplicativo da web.
+
+-> Autenticação: Se refere ao processo de verificação da identidade de um usuário, com base nas credenciais fornecidas.
+
+-> Autorização: Se refere ao processo de determinar se um usuário tem permissão adequada para executar uma ação específica ou ler dados específicos, pós autenticação com êxito.
+
+-> Principio: Refere-se ao usuário autenticado no momento.
+-> Autoridade concedida: Refere-se à permissão do usuário autenticado.
+-> Função: Refere-se a um grupo de permissões do usuário autenticado.
+
+JSON Web Token (JWT) 
+-> https://jwt.io/introduction
+
+Considerações:
+
+-> Habilitamos a segurança em nossa API.
+-> Conhecemos algumas formas de configurar segurança.
+-> Configuramos manualmente a segurança da nossa API.
+-> Consultamos nossos usuários em bancos de dados.
+-> Melhoramos a segurança da nossa API com JWT.
+
+
+Github: https://github.com/digitalinnovationone/dio-springboot

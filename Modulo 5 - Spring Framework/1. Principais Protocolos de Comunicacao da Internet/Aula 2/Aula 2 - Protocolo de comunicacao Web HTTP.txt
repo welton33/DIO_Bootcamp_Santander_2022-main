@@ -1,0 +1,94 @@
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+Servidores / Sistemas de aplicação
+
+- Apache / XAMPP (Teste e desenvolvimento s/ Internet) / NGINX.
+
+WireShark
+-> O Wireshark é um analisador de pacotes gratuito e de código aberto. 
+-> É usado para solução de problemas de rede, análise, desenvolvimento de software e protocolo de comunicação e educação.
+-> Verificador de atividades entre cliente-servidor.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+Atualização no HTTP 2.0
+
+-> Multiplexação.
+-> Priorização de recursos.
+-> Streaming ID Header - Segmentação - Reutilização do Header.
+-> Push - response do servidor - retorna dados relacionados a uma determinda request.
+
+Melhorias:
+-> Única conexão persistente.
+-> Compressão de header.
+-> Server push (cliente precisa ter suporte e por padrão não está habilitado).
+-> HTTPS por padrão - TLS.
+-> Negociação no handshake.
+
+Contras:
+PUSH
+- Configuração incorreta.
+
+Mix 1.1 e 2.0 
+- Lentidão. 
+- Load balancer - HTTP 1.1
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+Para que servem os cookies e Cache?
+-> Pequenos pedaços ou blocos de dados criados e utilizados pelo servidor para persistir dados no dispositivo do cliente.
+
+*Cookies de sessão: Encerrada a conexão os dados são apagados.
+*Cookies de persistentes: Mantém informações salvas no computador (Manter logins ativos, Informação de Website.....)
+
+Problemas: Hacking
+Atualizações: LGPD
+
+Web Cache: Proxy server (redução do tempo de resposta / redução do tráfego)
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+Mensagens HTTP - Response e Request
+
+GET / HEAD / POST / PUT / DELETE / TRACE / OPTION / CONNECT / PATCH 
+Métodos Seguros: GET / POST / OPTION = Read Only - Safe Methods 
+
+HTTP response: Status Code
+
+-> Information: 100-199 
+-> Successeful: 200-299 Ex: 200 OK
+-> Redirection: 300-399 Ex: 301
+-> Client error: 400-499 EX: 404 Not found
+-> Server error: 500-599 EX: 505 HTTP version not suported
+OBS: suporte ao webDAV -  Web Distribuited Authoring and Versioning
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+Protocolos de Comunicação da Internet
+
+HTTP: HyperText Transfer Protocol
+->Stateless: não armazena informações do cliente.
+
+-> Definido pelos RFCs 1945 / 2116
+
+- Browser -> Implementa o cliente HTTP;
+- Servidor -> Host objetos web.
+- Cliente - Request / Servidor - Response
+
+Versões: 0.9 / 1.0 / 1.1 (CORS + Keep-Alive) / SPDY / 2.0
+
+Métodos: GET (Solicita dados) / POST (Envia dados).
+
+HTTP Entity Body: XML / JSON 
+XML -> Serialização / Comunicação / Metadados.
+JSON -> Lightweight / Independente de linguagem / simples.
+Comum: Auto-descritivos / Hierárquicos / Independentes de linguagem de programação / Vasta utilização.
+
+TCP - Transmission Control Protocol
+- Não persistente: solicita e encerra.
+- Persistente: solicita e enquanto não for obtido o resultado a conexão fica aberta.
+
+HTTP 1.1 - Browser - até 6 solicitações simultâneas.
+-> HOL - Head of Line Blocking / Repetição dos dados (Overhead)
+

@@ -1,0 +1,17 @@
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+Contextualização
+
+WebSocket
+
+-> Protocolo fornece comunicação cliente/servidor executando um código não confiável em um ambiente controlado para o host que escolheu essa comunicação.
+
+- Uma única conexão bidirecional, rodando encapsulado no HTTP com uso de uma API.
+- Uso de aplicações que rodam em tempo real.
+
+Ports: 
+- 80: HTTP
+- 443: HTTPS
+- 443: webSocket

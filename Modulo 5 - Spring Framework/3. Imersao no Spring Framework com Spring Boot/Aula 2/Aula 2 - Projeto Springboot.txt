@@ -1,0 +1,50 @@
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+Primeiros Passos
+
+1. Criar o projeto no site https://start.spring.io/
+
+ Exemplo: 
+
+Project Metadata
+	Group: dio
+	Artifact: primeiros-passos	
+	Name: primeiros-passos
+	Description: Primeiros passos com Spring Boot
+	Package name: dio.springboot
+
+
+Arquivo application.properties - Neste arquivo que serão registrados todas as informações de configuração do projeto, desde conexões com BDs com acesso a porta de um servidor.
+
+Arquivo pom.xml - Contém todas as informações do projeto e suas dependências.
+
+CommandLineRunner: é uma interface Spring Boot simples com um método run. O Spring Boot chamará automaticamente o método run de todos os beans que implementam esta interface depois que o contexto do aplicativo for carregado.
+
+@Component: é uma anotação que permite ao Spring detectar automaticamente nossos beans personalizados. Em outras palavras, sem ter que escrever nenhum código explícito, o Spring irá: Escanear nosso aplicativo para classes anotadas com @Component. Instancie-os e injete quaisquer dependências especificadas neles. Injete-os
+sempre que necessário.
+
+@Configuration: indica que uma classe declara um ou mais métodos @Bean e pode ser processada pelo contêiner Spring para gerar definições de bean e solicitações de serviço para esses beans em tempo de execução.
+
+@Autowired: Ele permite que o Spring resolva e injete beans colaborativos em nosso bean
+
+Singleton: São usadas para log, objetos de driver, cache e pool de threads, conexões de banco de dados. Uma implementação de classe singleton deve ter as seguintes propriedades: Deve ter apenas uma instância: Isso é feito fornecendo uma instância da classe de dentro da classe.
+
+@Scope(prototype): Significa que toda vez que você pedir ao spring (getBean ou injeção de dependência) por uma instância, ele criará uma nova instância e fornecerá uma referência a ela. No seu exemplo, uma nova instância de LoginAction é criada e injetada em seu HomeController.
+
+@Value: É uma anotação Java que é usada no nível de parâmetro de campo ou método/construtor e indica um valor padrão para o argumento afetado. É comumente usado para injetar valores em variáveis ​​de configuração.
+-> As informações dos atributos ficam no application.properties
+-> Caso a informação não seja encontrada e apresentar erro é passada uma informação default. Ex: @Value("${nome:NoReply-DIO}") 
+
+@Configuration: Indica que a classe possui métodos de definição @Bean. Assim, o contêiner Spring pode processar a classe e gerar Spring Beans para serem usados ​​na aplicação.
+
+@ConfigurationProperties: Permite mapear facilmente todas as propriedades e arquivos Yaml em um objeto. Também permite validar propriedades com validação de bean JSR-303. Por padrão, a anotação lê do aplicativo. 
+Exemplo: @ConfigurationProperties(prefix = "remetente")
+application.properties 
+- remetente.nome=NoReply - DIO
+- remetente.email=noreply@dio.com.br
+- remetente.telefones=1145651725,1187651343
+
+Slides: https://docs.google.com/presentation/d/1jS5Ov8UCSnzgW3TLBcAsGrXo__kL6FOG/edit#slide=id.p1
+
+Github: https://github.com/digitalinnovationone/dio-springboot

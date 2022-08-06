@@ -1,0 +1,100 @@
+
+FatJar UberJar
+
+Antes do Spring boot
+-> Spring tradicional: WAR (web.xml) precisa de servidor de aplicação.
+ Web application -> Package -> WAR -> Deploy -> Web Server
+-> Dependência de um container web ou servidor de aplicação.
+-> Complexidade para configurações.
+-> Atualizações frequentes, junto com versão do projeto.
+-> Configurações manuais.
+
+Com Spring:
+
+-> Artefato do projeto para execução.
+-> Container web embutido na geração e execução (Tomcat).
+-> Deploy embarcado com outros containers são opcionais.
+-> Dependências principais do projeto embarcado.
+
+--> Execução direta através de um único java-jar!!!!
+ $ mvn package && java -jar target/spring-boot-nomedoprojeto.jar
+
+Exercicio
+
+*Fazer o build do projeto.
+*Explorar contéudo do arquivo .jar gerado.
+*Executar o projeto no terminal com java -jar.
+*Trocar o formato do artefato para .war e executar no Tomcat.
+
+Comandos
+
+1. mvn clean package - limpa o projeto e empacota.
+ Obs: Por padrão todo conteúdo e gerado para dentro da pasta target
+2. java -jar springboot.jar (depois de acessado o target)
+3. jar tf springboot.jar | less - lista todas a dependencias.
+
+https://github.com/rpeleias-v1/springboot_digital_innovation_one/tree/master/springboot-parte3
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+Auto Configuration
+-> Starters: dependências auto configuráveis pelo Spring Boot.
+
+Configuração manual 
+-> Múltiplos arquivos XML.
+-> Configuração manual do Spring MVC: Dispatcher Servelet, web.xml, spring-mvc.xml
+-> Configuração manual dos benas Spring.
+-> Spring Data, Spring Security.
+
+Comandos:
+
+1. mvn nomeDoProjeto:run - inicializa a aplicação.
+
+Exercicio
+
+*Adicionar propriedade debug=true no application.properties
+*Executar projeto no terminal e analisar o log.
+*Identificar e visualizar o auto configuration do spring mvc.
+*Visualizar a dependência do auto configuration do projeto.
+Obs: Ao rodar a aplicação novamente identifica-se os passos que são executados para subir a aplicação na web.
+
+Classes de configuração são identificadas por @Configuration combinado com @ConditionalOnClass.
+@ConditionalOnClass({Servlet.class, DispatcherServlet.class, WebMvcConfigurer.class})
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+O que é e quais problema resolve?
+
+Problemas:
+
+-> Configurações de beans em arquivos xml.
+-> Dispatcher Servelet e view resolver em web.xml.
+-> Setup manual de Banco de Dados.
+-> Muito tempo gasto em configuração.
+
+O que é Spring Boot?
+
+-> Criado pela Spring Source em 2012 e facilitar o setup de projetos spring.
+-> Sem necessidade de criar arquivos de configuração.
+
+Quais problemas resolve?
+
+-> Produtividade: setup simplificado de projeto.
+-> Starters: dependências auto configuráveis pelo Spring Boot.
+-> Execução simplificada: sem deploy em servidor externo.
+-> Configuração: arquivo externo para configuração.
+-> Valor: maior tempo em desenvolvimento.
+
+Exercicio:
+
+*Criação de um projeto no site http://start.spring.io.
+*Importar o projeto para a IDE.
+*Adicionar spring-boot-starter-mvc no pom.xml.
+*Adicionar classe HelloController e o método hello().
+*Executar o projeto através do terminal.
+
+Sites:
+
+Criador do arquvio: https://start.spring.io/
+Instalação do maven: https://dicasdejava.com.br/como-instalar-o-maven-no-windows/
+Download: https://maven.apache.org/download.cgi
