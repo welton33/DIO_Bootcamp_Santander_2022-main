@@ -1,0 +1,269 @@
+
+/* Inicio - Definindo o funcionamento padrão de cores */
+:root{
+
+    /*Body Root*/
+    --body-bg:rgb(243, 243, 243);
+    --body-bgresponsive:#ffffff;
+
+    /*Classe Group Root*/
+    --color-group: #ffffff;
+
+    /*Classe get-app Root*/
+    --color-get-app: black;
+
+    /*Footer Root*/
+    --color-footer: rgb(243, 243, 243);
+    --color-ftxt: rgb(5, 0, 0);;
+}
+/* Fim - Definindo o funcionamento padrão de cores */
+
+/* Inicio - Definindo o funcionamento para o DARK MODE */
+.dark-mode:root{
+
+    /* --body-bg: #212529; */
+
+    /*Body Root - Dark Mode*/
+    --body-bg: hsl(0, 0%, 0%);
+    --body-bgresponsive:hsl(0, 0%, 0%);
+
+    /*Classe Group Root - Dark Mode*/
+    --color-group: hsl(0, 0%, 0%);
+
+    /*Classe get-app Root*/
+    --color-get-app: #0095f6;
+
+    /*Footer Root - Dark Mode*/
+    --color-footer: hsl(0, 0%, 0%);
+    --color-ftxt: #ffffff;
+}
+/* Fim - Definindo o funcionamento para o DARK MODE */
+
+
+/* Resetando valores para novas definições */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+/* Estilizando o Body */
+body{
+    width: 100%;
+    min-height: 100vh;
+    /* background-color: rgb(243, 243, 243); */
+    background-color: var(--body-bg);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+/* Estilizando o Body */
+.instagram-wrapper{
+    display: flex;
+    align-items: center; /* eixo Y */
+    justify-content: start; /* eixo X */
+    width: 60%;
+    height: 100%;
+}
+
+/* Estilizando a Imagem do celular*/
+.instagram-phone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+/* Reduzindo a Imagem do celular*/
+.instagram-phone img{
+    height: 50rem;
+}
+
+/* Estilizando o Posicionamento dos elementos à direita */
+.instagram-continue{
+    display: flex;
+    align-items: center; /* horizontal */
+    justify-content: space-around; /* vertical */
+    flex-direction: column;
+    width: 50%;
+    min-height: 34rem;
+}
+
+/* Estilizando os Elementos do Container/Opções */
+.group{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: #ffffff; */
+    background-color: var(--color-group);
+    width: 100%;
+    padding: 1.3rem 0;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+}
+
+/* class:nth-child() seleciona dentro de um grupo o elemento */
+.group:nth-child(1){
+    min-height: 19rem;
+}
+
+
+/* Estilizando o tamanho da imagem do logo */
+.instagram-logo{
+    height: 3rem;
+}
+
+/* Estilizando imagem do perfil */
+.profile-photo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    overflow: hidden; /* tudo que excede o tamanho da div, fica escondido */
+}
+
+/* Estilizando o tamanho da imagem do perfil */
+.profile-photo img{
+    height: 6rem;
+}
+
+/* Estilizando o login */
+.instagram-login{
+    background-color: #0095f6;
+    color: #ffffff;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+/* Estilizando o logout */
+.instagram-logout{
+    color: #0095f6;
+    margin-top: 1rem;
+}
+
+/* Estilizando os textos sobre login */
+.not-account{
+    color: rgb(160, 160, 160);
+}
+
+/* Estilizando os textos sobre login opções*/
+.link-blue{
+    color: #0095f6;
+}
+
+/* Estilizando a DIV Elementos do Container dos apps*/
+.get-the-app{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1.3rem 0;
+    font-weight: bold;
+    /* color: black; */
+    color: var(--color-get-app);
+}
+
+/* Estilizando o Container dos apps navegação*/
+.download{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+}
+
+/* Estilizando a DIV Elementos do Container dos apps navegação*/
+.app-download{
+    height: 3rem;
+    width: 10.3rem;
+    background-size: cover;
+    border-radius: 2px;
+}
+
+/* Definindo as Urls das imagens do Container dos apps navegação*/
+.app-download:nth-child(1){
+    background-image: url(./img/apple-button.png);
+}
+.app-download:nth-child(2){
+    background-image: url(./img/googleplay-button.png);
+}
+
+/* --------------------- Inicio Estilizando o Footer --------------------------------- */
+footer{
+    /* background-color: rgb(243, 243, 243); */
+    background-color: var(--color-footer);
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+}
+
+footer .footer{
+    justify-content: space-between;
+    /* color: rgb(5, 0, 0); */
+    color:var(--color-ftxt);
+}
+
+footer p{
+    font-size: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* --------------------- Fim Estilizando o Footer --------------------------------- */
+
+
+/* ----------------- Media Queries - Definindo as Responsividades ----------------- */ 
+
+/* Tablets */
+@media (max-width:1024px){
+
+    .instagram-wrapper{
+        width: 90%;
+    }
+}
+
+/* Celulares */
+@media (max-width:650px){
+
+    body{
+        /* background-color: #ffffff; */
+        background-color: var(--body-bgresponsive);
+    }
+
+    .instagram-wrapper{
+        width: 90%;
+    }
+
+    .instagram-phone{
+        display: none;
+    }
+
+    .instagram-continue{
+        width: 100%;
+    }
+
+    .group{
+        border: 1px solid transparent;
+    }
+
+    footer{
+        /* background-color: #ffffff; */
+        background-color: var(---color-footer);
+        background-color: var(--body-bgresponsive);
+    }
+
+    footer .footer{
+        justify-content: space-between;
+        color: var(--color-ftxt);
+    }
+}
