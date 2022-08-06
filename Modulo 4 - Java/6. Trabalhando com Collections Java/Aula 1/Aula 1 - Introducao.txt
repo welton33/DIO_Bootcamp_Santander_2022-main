@@ -1,0 +1,23 @@
+
+
+-------------------------------------------------------------------------
+
+Collections
+
+
+- É um objeto que agrupa múltiplos elementos (Variaveis primitivas ou objetos) dentro de uma única unidade;
+
+- Serve para armazenar e processar conjuntos de dados de forma eficiente.
+
+Composição
+
+- Interfaces: É um conjunto que quando assumido por uma classe deve ser implementado.
+
+- Implementações ou Classes: São as materializações, a codificação das interfaces.
+
+- Algoritmos: É uma sequência lógica finita de instruções para resolver um problema.
+
+
+Slides:
+- https://drive.google.com/file/d/1orwSu9ravNsw_SAHRaCMtd8Fvc3Qrsof/view
+- https://drive.google.com/file/d/1kaAIEkaTt3q1rof6OFOb5XVgf25IDXf7/view

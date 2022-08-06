@@ -1,0 +1,6 @@
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+Para instalar seguir o passo a passo neste repositório
+
+https://github.com/cami-la/curso-dio-dominando-ides-java

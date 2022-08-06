@@ -1,0 +1,52 @@
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+História do JAVA
+
+-> É uma linguagem de programação Orientada a Objetos.
+-> Surgiu na década de 90.
+-> Sun Microsystems vendida depois para Oracle 2008.
+
+Características do JAVA
+
+-> Linguagem interpretada.
+
+- Programa Java / Compilador / Programa classe (bytecode) / JVM (VM) / SO
+
+Plataforma x Linguagem
+ 
+- Convencional na Plataforma Java.
+
+-> Java SE (Java Plataform, Standard Edition) [desktop]
+-> Java EE (Java Plataform, Enterprise Edition) [Web]
+-> Java ME (Java Plataform, Micro Edition) [móveis]
+
+Fases da Execução Java
+JDK - JRE - JVM
+
+JDK x JRE
+
+-> JDK (Java Development Kit): è o kit de Desenvolvimento Java responsável por compilar código-fonte (.java) em bytecode (.class).
+
+-> JVM (Java Virtual Machine): É a Máquina Virtual do Java responsável por executar o bytecode (.class).
+
+-> JRE (Java Runtime Enviroment): Ambiente de Execução do Java que fornece as bibliotecas padrões do Java para o JDK compilar o seu código e para a JVM executar o seu programa.
+
+Versões Java
+
+-> OpenJDK: open source com uma GNU (General Public License).
+--> OpenJDK LTS ocorre atualização a cada 4 anos.
+
+-> JDK Oracle: requer licença comercial e possui mais suporte.
+
+IDE (Interface Development Environment)
+-> Ambiente de Desenvolvimento Integrado.
+-> Combina ferramentas de desenvolvimento com uma GUI, que é interface gráfica do usuário.
+
+OBS: Ambos desenvolvidos em Java.
+--> Eclipse IDE
+--> Intelij IDEA
+
+Alternativas: Vscode / NetBeans / BlueJ / JCreator
+
+GitHub: https://github.com/cami-la/curso-dio-dominando-ides-java

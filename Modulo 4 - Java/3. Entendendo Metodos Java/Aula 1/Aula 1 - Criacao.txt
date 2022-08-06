@@ -1,0 +1,52 @@
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+Introdução
+
+Conceituação
+
+"É uma porção de código (sub-rotina) que é disponibilizado por uma classe. Este é executado quando é feita uma requisição a ele. São responsáveis por definir e realizar um determinado comportamento."
+
+Definição:
+
+<?visibilidade?> <?tipo?> <?modificador?> retorno nome (<?paramêtros?>) <?execeções?> corpo
+
+onde: 
+
+*V: "public", "protected" ou "private"
+T: concreto ou abstrato
+M: "static" ou "final"
+*R: tipo de dado ou "void"
+*N: nome que é fornecido ao método
+*P: parâmetros que pode receber
+*E: exceções que pode lançar
+*C: código que possui ou vazio
+
+public static R N(P) { ... }
+
+Utilização: Passa-se uma mensagem através de uma classe ou objeto.
+
+Exemplos
+
+Classe - Método
+Math.random() // sem parâmetro ; ou Math.sqrt(4) // com parâmetro; 
+
+Objeto - Método
+usuario.getEmail() // sem paramêtro; ou usuario.alterarEndereco(endereco) // com paramêtro;
+
+Particularidades
+
+- Assinatura: É a forma de identificar unicamente o método
+	Ass: nome + parâmetros
+
+- Construtor e Destrutor: São métodos especiais usados na Orientação a Objetos.
+
+- Mensagem: É o ato de solicitar ao método que o mesmo execute. Esta pode ser direcionada a um objeto ou a uma classe.
+
+- Passagem de parâmetros:
+ - Por valor (cópia).
+ - Por referência (endereço).
+
+Slide: https://docs.google.com/presentation/d/1InCKAqx_Vocw9BxN95JTtcDpPnredEOa/edit?rtpof=true&sd=true
+
+

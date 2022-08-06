@@ -1,0 +1,28 @@
+
+
+-------------------------------------------------------------------------
+
+Classe
+-> É uma estrutura que abstrai um conjunto de objetos com caracterísiticas similares.
+
+Atributo
+-> É o elemento de uma classe responsável por definir sua estrutura de dados.
+
+Atributo x Variável
+A: O que é próprio e peculiar a alguém ou alguma coisa.
+V: Sujeito a variações ou mudanças, que pode variar, inconstante, instável.
+
+Método
+-> É uma porção de código (sub-rotina) que é disponibilizada pela classe.
+
+- Construtor: Criar o objeto de determinada classe.
+- Destrutor: Auxilia na destruição do objeto, finalidade em liberar recursos.
+- Sobrecarga: Mudar a assinatura de acordo com a necessidade 
+  - Assinatura: nome + parâmetros. Ex: m1() / m1 (int i)
+
+
+Objeto
+-> É a representação de um conceito/entidade do mundo real, que pode ser física (bola,carro,etc) ou conceitual (viagem,estoque,etc) e possui um significado bem definido para um determinado software. Para esse conceito/entidade, deve ser definida inicialmente uma classe a partir da qual posteriormente serão instanciados objetos distintos."
+
+Mensagem
+-> É o processo de ativação de um método de um objeto. Isto ocorre quando uma requisição (chamada) a esse método é realizada, assim disparando a execução de seu comportamento descrito por sua classe. Pode também ser direcionada diretamente à classe, caso a requisição seja a um método estático."

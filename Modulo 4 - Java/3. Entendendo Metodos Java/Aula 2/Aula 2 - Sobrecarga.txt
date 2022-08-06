@@ -1,0 +1,23 @@
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+Introdução
+
+Conceituação
+
+"É a capacidade de definir métodos para diferentes contextos, mas preservandi seu nome."
+
+Criação
+
+Alterar a assinatura do método:
+ Ass = nome + parâmetros
+
+Exs:
+
+converterParaInteiro(float f);
+converterParaInteiro(int i);
+
+
+
+
+

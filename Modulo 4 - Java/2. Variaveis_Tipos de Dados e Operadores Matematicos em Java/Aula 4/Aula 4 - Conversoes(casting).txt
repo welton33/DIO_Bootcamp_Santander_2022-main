@@ -1,0 +1,16 @@
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+Introdução
+
+Conceituação
+
+"É a transforma de uma determinada variável de tipo menos específico para um tipo mais específico ou vice-versa"
+
+Tipos:
+- Upcast (implícito). Ex: long I; int i = 10; I = i;
+- Downcast (explícito). Ex: int i; long I = 100; i =(int) I;
+
+
+
+

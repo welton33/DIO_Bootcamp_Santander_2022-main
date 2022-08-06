@@ -1,0 +1,19 @@
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+Introdução
+
+Tipos:
+
+- pós-fixado: exp++ ou exp-- Ex: int j = k--; -> j=k; k=k-1
+- pré-fixado: ++exp ou --exp Ex: int i = ++k; -> i=k+1;
+- aritmético: +, -, *, / e %
+- atribuição: =, +=, -=, *=, /= %=
+
+Precedências: 
+Pós-fixado / Prefixado / Multiplicativo / Aditivo / Atribuição
+
+
+
+
+

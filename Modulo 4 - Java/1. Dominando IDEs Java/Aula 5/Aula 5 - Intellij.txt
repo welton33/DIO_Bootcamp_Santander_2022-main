@@ -1,0 +1,29 @@
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+IDE - Intellij
+
+Instalar A extensão: 
+- Key Promoter X
+- Rainbow Brackets 
+- GitToolBox
+- One Dark Theme
+
+Comandos 
+
+1. Alt + insert = Cria arquivos quando selecionado o elemento.
+Ex: src 
+2. Ctrl + Shift + F10 = Executa programa
+3. Ctrl + Shift + / = Comenta seleção
+4. Ctrl + Alt + O = Apaga os imports não utilizados
+5. Ctrl + Y = Deleta linha
+6. Shift + F12 = Exibe apenas o editor de código
+7. Ctrl + Alt + L = Identação
+8. Ctrl + Alt + V = Cria variavel local
+9. Ctrl + N = Filtra a busca
+
+http://www.basef.com.br/index.php/Atalhos_do_IntelliJ_Idea
+
+
+
+

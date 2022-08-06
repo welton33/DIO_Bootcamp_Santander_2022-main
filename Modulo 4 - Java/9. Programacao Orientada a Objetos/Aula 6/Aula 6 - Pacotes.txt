@@ -1,0 +1,15 @@
+
+
+-------------------------------------------------------------------------
+
+Pacotes
+-> São uma organização física ou lógica criada para separar classes com responsabilidades distintas.
+
+Visibilidades
+-> Tem como finalidade determinar até que ponto uma classe, atributo ou método pode ser usado.
+
+Tipos:
+
+- Private: Só dentro da classe.
+- Protected: Dentro da classe, mesmo pacote e subclasse.
+- Public: Em qualquer lugar.

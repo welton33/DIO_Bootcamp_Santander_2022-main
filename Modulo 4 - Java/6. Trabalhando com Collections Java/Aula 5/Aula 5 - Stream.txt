@@ -1,0 +1,35 @@
+
+
+-------------------------------------------------------------------------
+
+Classe Anônima
+
+-> É uma classe que não recebeu um nome e é tanto declarado e instanciado em uma única instrução.
+
+Functional Interface 
+
+-> Qualquer interface com um SAM (Single Abstract Method) é uma interface funcional e sua implementação pode ser tratada como expressões lambda. 
+ --> Comparator;
+ --> Consumer;
+ --> Function;
+ --> Predicate.
+
+Lambda
+
+-> É uma função sem declaração (nome, tipo de retorno e modificador de acesso).
+-> A ideia é que o método seja declarado no mesmo lugar em que será usado.
+-> Sintaxe: (argumento) -> (corpo)
+
+Reference Method
+
+-> É um novo recurso do Java 8 que permite fazer referência a um método ou construtor de uma classe e assim indicar que ele deve ser utilizado num ponto especifico.
+
+-> Informar classe ou referência seguindo de "::" e nome do método s/ ().
+
+Stream API
+
+-> Traz uma alternativa para manipulação de coleções em Java combinada com as expressões lambda.
+	Source -> Pipeline -> Terminal
+
+
+Slides: https://drive.google.com/file/d/10-98R_8p6kS3fvsBm-Tkt3MHNIEuz3yy/view

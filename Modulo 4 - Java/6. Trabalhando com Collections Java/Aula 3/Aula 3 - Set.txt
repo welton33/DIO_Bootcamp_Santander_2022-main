@@ -1,0 +1,42 @@
+
+
+-------------------------------------------------------------------------
+
+java.util.Set
+
+-> Não permite elementos duplicados;
+-> Não possui índice (não tem métodos:get, indexOf, set)
+-> Ordem aleatória
+
+Set:
+
+// Criando um Set
+HashSet<tipo> variavel = new HashSet<>();
+Set<tipo> variavel = new HashSet<>(Arrays.asList(os valores));
+
+variavel.contains(valor) // Varre a lista para buscar o elemento, retorna um boolean
+variavel.size() // retorna a quantidade de elementos
+variavel.remove(e: valor) // e remove o valor buscado
+variavel.clear() // apaga toda lista
+variavel.isEmpty() // verifica se está vazio retorna boolean
+
+Obs: Não existe um método nativo em Set então usa-se a Collections para buscar o min e max.
+Collection.min(variavel) / Collection.max(variavel) 
+
+Não existe um método nativo em Set então usa-se o Iterator para somar.
+
+Iterator<tipo> iterator = variavel.iterator();
+    Tipo variavel2 = 0;
+    while(iterator.hasNext()){
+      Tipo variavel1 = iterator.next();
+      variavel2 += next;
+    }
+
+// Exibindo valores da lista com LinkedHashSet
+Set<tipo> variavel = new LinkedHashSet<>();
+variavel.add(valor);
+
+
+Slides: https://drive.google.com/file/d/1tFsgADr5gYFEa4fQS0XzpK8i4ADqt95W/view
+
+

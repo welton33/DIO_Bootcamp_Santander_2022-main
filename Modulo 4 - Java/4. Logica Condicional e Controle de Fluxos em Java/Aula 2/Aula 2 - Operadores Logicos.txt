@@ -1,0 +1,25 @@
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+Introdução
+
+Tipos:
+
+- Conjunção: Operação lógica que só é verdadeira quando ambos os operando ou expressões envolvidas são verdades. 
+Simbologia: && /  Terminologia: and(e)
+
+
+- Disjunção: Operação lógica que só é falsa quando ambos os operando ou expressões envolvidas são falsas. 
+Simbologia: || /  Terminologia: or(ou)
+
+
+- Disjunção exclusiva: Operação lógica que só é verdadeira quando ambos os operando ou expressões envolvidas são opostos.
+Simbologia: ^ /  Terminologia: xor
+
+
+- Negação: Operação que inverte o valor lógico de um operando ou expressão
+Simbologia: ! /  Terminologia: inverção
+
+Curiosidades:
+- bitwise: & e |
+- shift: ~, >>, >>>, <<

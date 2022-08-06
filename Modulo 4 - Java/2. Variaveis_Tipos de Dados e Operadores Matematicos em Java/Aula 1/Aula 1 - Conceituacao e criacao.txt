@@ -1,0 +1,27 @@
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+Introdução
+
+Conceituação 
+
+"Um espaço na memória do computador, onde se pode guardar valores."
+
+4 Tipos:
+-> Instância: objeto;
+-> Classe: classe;
+-> Local: dentro de métodos;
+-> Paramêtro: na assinatura do método.
+
+Criação
+
+<?visibilidade?><?modificador?>tipo nome<?=valorInicial?>;
+
+V: "public" , "protected" e "private.
+M: "static" e "final"
+T: Tipo de dado
+N: Nome que é fornecido a variável
+VI: Um valor inicial, caso se deseje
+
+
+

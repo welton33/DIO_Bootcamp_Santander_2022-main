@@ -1,0 +1,32 @@
+
+
+-------------------------------------------------------------------------
+
+Herança
+-> É o relacionamento entre classes em que uma classe chamada de subclasse é uma extensão, um subtipo, de outra classe chamada superclasse.
+
+*Simples: A classe filha tem só uma classe mãe
+*Múltipla: A classe filha tem uma ou mais classes mães
+
+Hierarquia: Upcast e Downcast
+
+Polimorfismo: "A mesma ação, se comportando diferente."
+Sobrescrita: "A mesma ação, podendo se comportar diferente."
+
+Associação
+-> Possibilita um relacionamento entre classes/objetos, no qual estes possam pedir ajuda a outras classes/objetos e representar de forma completa o conceito ao qual de destinam.
+
+Tipos:
+
+-> Estrutural: Relacionado aos Atributos
+ - Composição: "Com Parte Todo" Ex: Pessoa e Enderço.
+ - Agregação: "Sem Parte Todo" Ex: Disciplina e Aluno.
+
+-> Comportamental: Relacionado ao Método.
+ - Dependência: "Depende de"
+
+Curiosidade: Herança x Associação
+Uma coisa é outra? Se sim (Herança), Senão (Associação).
+
+Interface
+-> Define um contrato que deve ser seguido pela classe que a implementa.

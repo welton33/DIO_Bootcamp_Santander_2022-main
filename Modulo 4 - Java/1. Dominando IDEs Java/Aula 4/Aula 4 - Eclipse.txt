@@ -1,0 +1,23 @@
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+IDE - Eclipse 
+
+Comandos 
+
+1. Ctrl + 3 = Muda perspectiva de trabalho.
+2. F2 = Sobre um item do projeto renomeia.
+3. Crtl + N = Sobre um pacote/projeto cria um novo arquivo.
+4. Ctrl + D = Apaga linha.
+5. Alt + seta cima = move o bloco do código.
+6. Ctrl + Shift + F = Identação.
+7. Ctrl + 1 = cria variavel local.
+8. Ctrl + Shift + T = Filtra o elemento que estiver buscando.
+9. Ctrl + Shift + C = comenta a seleção.
+
+Passando para o Git
+
+-> Criar um token no Github para usar no Eclipse.
+
+
+

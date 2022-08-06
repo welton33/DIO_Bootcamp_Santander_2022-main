@@ -1,0 +1,18 @@
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+Introdução
+
+Conceituação 
+
+"São valores e consequentemente operações que as variáveis podem assumir e sofrer, respectivamente."
+
+Tipificação:
+-> Estática(forte) vs Dinâmica(fraco);
+-> Primitivo vs Composto.
+
+Exs: Textual, Numeral, Lógico, Objeto.
+
+
+
+

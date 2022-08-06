@@ -1,0 +1,22 @@
+
+
+-------------------------------------------------------------------------
+
+PE vs POO
+
+PE
+
+- Paradigma Estruturado tem uma representação mais simplista.
+- Foca em operações (funções) e dados.
+- Foca no "como fazer"
+
+POO
+
+- Paradigma Orientado a Objeto tem uma representação mais realista.
+- Foca na modelagem de entidades e nas interações entre elas.
+- Foca mais no "o que fazer"
+
+Vantagens POO
+- Melhor coesão e acoplamento;
+- Diminuição do Gap semântico;
+- Coletor de lixo.

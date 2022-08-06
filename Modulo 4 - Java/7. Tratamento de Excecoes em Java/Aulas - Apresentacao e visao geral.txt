@@ -1,0 +1,21 @@
+
+
+-------------------------------------------------------------------------
+
+Exceção
+-> É um evento que interrompe o fluxo normal do processamento de uma classe.
+-> No inicio do projeto tente implementar.
+
+* Error: Usado pela JVM e indica se existe problema de recurso do programa.
+
+* Unchecked (Runtime): Exceptions que PODEM ser evitados e tratados.
+Ex: dividir por 0, acessar uma posição inexistente no vetor etc.
+
+* Checked Exception: Exceptions que DEVEM ser evitados e tratados.
+
+-> try, catch, finally: definem blocos para tratamento.
+-> throws: declara um método que pode lançar uma ou várias exceções.
+-> throw: lança explicitamente uma exception (personalização).
+
+
+Slides: https://docs.google.com/presentation/d/1CQDNDFG4y4QVw626jdkuNNWbYG6GKER8/edit#slide=id.p2

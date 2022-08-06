@@ -1,0 +1,48 @@
+
+
+-------------------------------------------------------------------------
+
+java.util.Map
+
+-> Elementos únicos (key) para cada valor (value).
+
+HashMap
+
+// Criando um Map
+Map<tipo, tipo> variavel = new HashMap<>() {{ put(key, valor); }}; 
+variavel.put(key, value) // altera o valor se a key existir
+variavel.containsKey(objeto) // verifica se existi no Set
+variavel.get(key) // retorna o valor daquela chave
+Set<tipo> variavel = nomeSet.keySet(); // retorna as chaves do Set
+Collection<tipo> variavel = nomeSet.values(); // retorna os valores do Set
+Collections.max(nomeSet.values()) // retorna o valor máximo
+Collections.min(nomeSet.values()) // retorna o valor minímo
+variavel.size() // retorna a quantidade de elementos
+variavel.remove() // remove o valor buscado sendo necessario usar junto do iterator
+variavel.clear() // apaga toda lista
+variavel.isEmpty() // verifica se está vazio retorna boolean
+
+Exemplo1:
+
+// entrySet() método que retorna o Set para fazer uma tratativa com key e value separadmente
+Double consumoMaisEficiente = Collections.max(carrosPopulares.values());
+        Set<Map.Entry<String, Double>> entries = carrosPopulares.entrySet();
+        String modeloMaisEficiente = "";
+        for (Map.Entry<String, Double> entry : entries) {
+            if (entry.getValue().equals(consumoMaisEficiente)) {
+                modeloMaisEficiente = entry.getKey();
+                System.out.println("Modelo mais eficiente: " + modeloMaisEficiente + " - " + consumoMaisEficiente);
+            }
+        }
+
+Não existe um método nativo em Set então usa-se o Iterator para somar.
+
+Iterator<tipo> iterator = nomeSet.values().iterator();
+    Tipo variavel = 0;
+    while(iterator.hasNext()){
+      variavel += iterator.next();
+    }
+
+
+Slides: https://drive.google.com/file/d/1u02CyiElDJR4wmDQ8vq3aNYe10-iSVt-/view
+
