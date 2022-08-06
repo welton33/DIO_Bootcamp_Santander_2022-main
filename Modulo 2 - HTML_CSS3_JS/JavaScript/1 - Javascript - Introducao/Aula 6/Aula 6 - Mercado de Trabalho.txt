@@ -1,0 +1,23 @@
+
+Mercado de Trabalho
+
+- DIO
+- W3C
+- MDN Web Docs Mozila
+- GitHub
+- Linkedin
+- Twitter
+- Youtube
+- Stack overflow
+
+------------------------------------------------------------------------
+
+Frameworks e Bibliotecas
+
+- VueJs
+- Angular
+- React
+- JQuery
+
+Slide
+https://drive.google.com/file/d/1vxqzu7Ds3AvAT3fqopuJb74b7dZv-bai/view?usp=sharing

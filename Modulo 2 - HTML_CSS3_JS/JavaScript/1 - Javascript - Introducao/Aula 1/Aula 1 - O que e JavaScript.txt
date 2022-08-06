@@ -1,0 +1,19 @@
+
+------------------------------------------------------------------------
+
+O que é o JavaScript?
+
+- Linguagem Interpretada;
+- Baseada em Protótipos;
+- Multiparadigma;
+- Comumente utilizada em aplicações web client-side;
+- Segue o padrão ECMAScript.
+
+-> Evolução: ECMAScript 1-6 (1997-atualmente).
+
+-> Aplicações: Web / Mobile / Smartwatches / Games / IoT / APIs.
+
+Slides: 
+
+- https://drive.google.com/file/d/1OewERdQ1_0xVRj_d04PCCBxOS2qRZmwe/view
+- https://drive.google.com/file/d/18sCfJ8MVRShhbViehk79-4ca-lQQ4fqY/view

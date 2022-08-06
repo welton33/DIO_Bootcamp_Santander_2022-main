@@ -1,0 +1,45 @@
+Instalando TypeScript 
+
+- Seguir os passos do site e instalar.
+-> npm install typescript --save-dev
+
+Site: https://www.typescriptlang.org/download
+
+npm: 
+-> É o gerenciador de pacotes para a plataforma JavaScript Node. 
+-> Ele coloca os módulos no lugar para que o nó possa encontrá-los e gerencia conflitos de dependência de forma inteligente. 
+-> É extremamente configurável para suportar uma ampla variedade de casos de uso. 
+-> Mais comumente, é usado para publicar, descobrir, instalar e desenvolver programas de nó.
+
+Criando o arquivo index.ts e executando o comando parcel
+
+Para Inicializar via bash use: npm init.
+Instalar o compilador: npm i parcel-bundler.
+
+Executar os passos para conseguir rodar o typeScript no navegador
+
+1. Criar o arquivo index.html, referenciar ele no package.json em "start": "parcel index.html"
+2. Criar um arquivo index.ts, referenciar no arquivo .html -> <script src="./index.ts"></script>
+3. Executar o start em Scripts NPM -> após processamento mostra: built in some seconds
+4. Abrir no navegador o endereço: Server running at http://localhost:1234
+5. Abrir o console no navegador e verificar se aparece escrito TypeScript acima deste.
+
+Senão funcionar o tsc, rodar: 
+
+1. Check your npm version
+2. If it's not properly installed, then install it first
+3. run this command npm install typescript -g
+4. now tsc <file_name>.ts
+5. It'll create a corresponding .js file. eg <file_name>.js
+6. now try node <file_name>.js 
+-------------------------------------------------------------------------
+
+TypeScript 
+
+- É um superconjunto de JavaScript tipado (opcional) que pode ajudar a construir e gerenciar projetos JavaScript em larga escala. 
+
+- Pode ser considerado JavaScript com recursos adicionais:
+
+--> como tipagem estática forte.
+--> compilação.
+--> programação orientada a objetos

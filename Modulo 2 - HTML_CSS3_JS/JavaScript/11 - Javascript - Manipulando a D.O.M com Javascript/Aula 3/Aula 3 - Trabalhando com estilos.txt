@@ -1,0 +1,27 @@
+
+-------------------------------------------------------------------------
+
+Trabalhando com estilos
+
+Classes 
+
+Element.classList
+
+<div id="meu-elemento" class="classe">
+ <!-- resto do código aqui -->
+</div>
+
+const meuElemento = document.getElementById("meu-elemento")
+
+meuElemento.classList.add("novo-estilo");
+meuElemento.classList.remove("classe");
+meuElemento.classList.toggle("dark-mode"); // Se tem remove, senão add.
+
+Resultado
+<div id="meu-elemento" class="novo-estilo dark-mode">
+ <!-- resto do código aqui -->
+</div>
+
+CSS: Acessando diretamente o CSS de um elemento
+
+document.getElementsByTagName("p").style.color = "blue"

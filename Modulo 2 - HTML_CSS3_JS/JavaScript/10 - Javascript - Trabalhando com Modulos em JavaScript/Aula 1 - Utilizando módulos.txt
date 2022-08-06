@@ -1,0 +1,71 @@
+
+------------------------------------------------------------------------
+
+Módulos
+
+- São arquivos Javascript que tem a capacidade de exportar e importar informações de outros arquivos do mesmo tipo.
+
+Vantagens:
+-> Organização;
+-> Compartilhamento de variáveis em escopos diferentes;
+-> Explicita as dependências dos arquivos.
+
+Exportar : 
+
+-> Named exports.
+
+export function mostraIdade(pessoa) {
+	return "A idade de ${pessoa.nome} é ${pessoa.idade}
+}
+
+export function mostraCidade(pessoa) {
+	return "A idade de ${pessoa.nome} é ${pessoa.cidade}
+}
+
+export function mostraHobby(pessoa) {
+	return "A idade de ${pessoa.nome} é ${pessoa.hoby}
+}
+
+ou todas funções sem o "export" e no final informa:
+
+export {
+ mostraIdade,
+ mostraCidade,
+ mostraHobby
+}
+
+- Default exports.
+-> Só pode haver um por arquivo;
+-> Será o retorno padrão do seu arquivo.
+-> export default nome_função;
+
+Importar
+
+Named exports:
+-> import {funcao, variavel, classe} from './arquivo.js'
+
+Default exports:
+-> import valorDefault from from './arquivo.js'
+
+* Trocando nome de imports 
+-> import { arquivo as Apelido } from './arquivo.js'
+Apelido.metodo();
+
+* Importando todos os dados de um arquivo
+-> import * as INFOS from './arquivo.js'
+INFOS.metodoA();
+console.log(INFOS.varaivel); 
+
+VINCULANDO AO HTML
+
+<script type="module" src="./main.js></script>
+OBS: Para testar localmente precisa rodar em um servidor.
+VScode: com a extensão Live Server.
+
+CURIOSIDADES
+
+-> Módulos sempre estão em "strict mode";
+-> Podem ser utilizadas as extensões .js e .mjs;
+-> Para testes locais, é necessário utilizar um servidor;
+-> Ao importar, sempre lembre da extensão (.js, .mjs);
+-> Ao importar, sempre utilize "./" como ponto de partida.

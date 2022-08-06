@@ -1,0 +1,12 @@
+
+------------------------------------------------------------------------
+
+Estrutura de projeto
+
+Integarindo com os elementos do DOM
+
+- Document Object Model
+- Estrutura dos elementos da janela
+
+Slide
+https://drive.google.com/file/d/1WIFDplD9a2rZdkeXRW1TggbL_HQRuNmH/view

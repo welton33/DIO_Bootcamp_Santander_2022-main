@@ -1,0 +1,14 @@
+
+-------------------------------------------------------------------------
+
+ O que é Document Object Model?
+
+- O DOM HTML é um padrão de como acessar e modificar os elementos HTML de uma página.
+
+DOM vs BOM
+
+BOM: Browser Object Model
+-> Tudo o que está dentro do objeto window.
+
+window
+Document (DOM) / History / Location / Screen / Navigator

@@ -1,0 +1,27 @@
+
+-------------------------------------------------------------------------
+
+Métodos
+
+Estrutura HTML 
+tag / id / classe
+
+* Selecionando os elementos de uma página 
+
+Exs:
+
+-> document.getElementById('titulo');
+
+-> document.getElementsByTagName('li'); // retorna um array de elementos
+
+-> document.getElementsByClassName('textos'); // retorna um array de elementos.
+
+-> document.querySelectorAll(' .primeira-classe . segunda-classe') // è possível combinar tags, id, classes em uma busca personalizada.
+
+* Adicionar e deletar
+
+            Método                             	  Descrição
+-> document.createElement(element)	Criar um novo elemento HTML		
+-> document.removeChild(element)	Remove um elemento
+-> document.appendChild(element)	Adiciona um elemento
+-> document.replaceChild(new,old)	Substitui um elemento

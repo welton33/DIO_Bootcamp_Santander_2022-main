@@ -1,0 +1,18 @@
+
+------------------------------------------------------------------------
+
+Executando um arquivo .js
+
+Console em uma página Web, acessando por meio do inspecionar da página.
+
+Baixar Node js - https://nodejs.org/en/
+-> Necessário para poder visualizar o output no terminal.
+
+No Vscode
+
+Para acessar o console através do -> console.log("");
+
+Dentro do Terminal do Vscode
+Comando node + nomedo arquivo.js
+
+Slide https://drive.google.com/file/d/1OOkZSQhsVcassphzKP0LhecqvpRPXexO/view
