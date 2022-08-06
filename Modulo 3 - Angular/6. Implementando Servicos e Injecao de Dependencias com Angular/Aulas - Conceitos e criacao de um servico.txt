@@ -1,0 +1,15 @@
+ Consumindo APIs
+
+links:
+
+https://rickandmortyapi.com/documentation/#rest
+https://rickandmortyapi.com/api
+
+
+--------------------------------------------------------------------------
+Comandos
+
+
+https://www.netlify.com/
+
+Slide: https://drive.google.com/file/d/1TtkbHcue3FolQM2iebpEzteiU0w5TMLi/view
