@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./assets/CSS/style.css" />
+
+    <title>To-Do List</title>
+
+</head>
+
+<body>
+
+    <!-- Criando uma simples lista de tarefas-->
+
+    <h1 class="titulo">To-do list</h1>
+
+    <div id="list">
+
+        <!--DIV que agrupa o formulário-->
+        <form id="task-form">
+
+            <!--Caixa de texto-->
+            <input id="task-input" name="tarefa" type="text" placeholder="Digite aqui sua tarefa...." />
+
+            <!--Botão para capturar a informação digitada-->
+            <button type="submit">Salvar!</button>
+
+        </form>
+
+        <!--DIV que agrupa as informações cadastradas-->
+        <div id="tasks"></div>
+
+    </div>
+
+    <!--Elementos do Footer-->
+    <footer>
+        <div class="flex-container footer">
+            <p>&copy; 2022 Introdução Javascript</p>
+            <p>Bootcamp Santander 2022</p>
+            <p>Fullsatck Developer</p>
+            <p>Desenvolvido por: Mateus M. Frahm</p>
+        </div>
+    </footer>
+
+    <!-- Referenciando o arquivo do JavaScript -->
+    <script src="./assets/js/scripts.js"></script>
+
+</body>
+
+</html>
