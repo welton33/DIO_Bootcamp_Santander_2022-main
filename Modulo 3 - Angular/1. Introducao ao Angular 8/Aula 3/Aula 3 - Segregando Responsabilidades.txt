@@ -1,0 +1,24 @@
+
+Pasta core
+
+-> Contém módulos que são restritos ao compartilhamento em outros pontos da aplicação Ex: nav-bar
+
+--------------------------------------------------------------------------
+
+Pasta shared 
+
+-> Contém módulos que são bastante compartilhados em outros pontos da aplicação Ex: pipes 
+
+--------------------------------------------------------------------------
+
+Segregando módulos
+
+-> A ideia é dividir as responsabilidades para cada módulo de forma que apenas fazemos uso do que realmente for ser usado.
+
+--------------------------------------------------------------------------
+Fazendo requisições em HTTP
+
+Comandos
+
+1. npm install -> instalar todas dependências
+2. node serve.js -> inicia o back-end

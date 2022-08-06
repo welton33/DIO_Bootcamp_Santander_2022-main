@@ -1,0 +1,16 @@
+
+--------------------------------------------------------------------------
+Protegendo Rotas com Guards
+
+-> Selector: utilizado quando referenciado em outro componente por meio de tags.
+
+-> Rotas: utilizadas para triggar os componentes uns nos outros por meio do <router-outlet></router-outlet>.
+
+Exemplo: Os caminhos criados são objetos de rotas.
+
+// Definindo as rotas que serão carregadas no 'root'
+    RouterModule.forRoot([
+      { path: '', redirectTo: 'courses',pathMatch: 'full' }, // rota vazia abre o caminho especificado
+      { path: 'courses', component: CourseListComponent},
+      { path: '**', component:Error404Component} // rota feita quando não encontrada uma página
+    ])

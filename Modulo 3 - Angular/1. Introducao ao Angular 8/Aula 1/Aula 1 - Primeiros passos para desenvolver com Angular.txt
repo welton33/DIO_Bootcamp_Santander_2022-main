@@ -1,0 +1,64 @@
+--------------------------------------------------------------------------
+Criando componentes com atributos interdependentes
+
+Comandos
+
+1. npm install font-awesome
+
+
+--------------------------------------------------------------------------
+Criando componentes e construindo o projeto
+
+-> Toda vez que criar um componente você precisa declarar ele no app.module 'pai' ou seu correspondente.
+
+Comandos
+
+1. npm install bootstrap
+--------------------------------------------------------------------------
+
+Trabalhando com módulos e componentes
+
+-> Módulo: limitador de contexto, contendo inúmeros componentes.
+
+{{ title }}
+
+<br/>
+
+{{ name }} <!-- Interpolação exibi apenas a propriedade do componente-->
+
+<!-- Quando o ngModel está em [] ele apenas mostra o dado contido-->
+<input [ngModel]="name" name="name">
+
+<br/>
+
+<!-- Quando o ngModel está em [()] ele mostra o dado e le informação adicionada se propagando por todo o código que o contenha-->
+<input [(ngModel)]="name" name="name">
+
+--------------------------------------------------------------------------
+
+Criando a primeira aplicação com angular
+
+Comandos
+
+1. ng new nomeDoProjeto.
+
+Explicações
+
+- angular.json = expõe variáveis e arquivos globais
+ - arquivo de entrada da aplicação "main".
+ - arquivo que faz o scan que indica um ponto de entrada para todos as páginas "index".
+
+- main.ts = faz o bootstrap carrega o app module módulo raiz.
+
+- app.module = carrega o componente 'pai' app component o qual a partir dele fará adição de novos componentes de forma direta ou indireta
+
+--------------------------------------------------------------------------
+
+Instalando e configurando o ambiente
+
+Comandos
+
+1. verificar versão: node -v
+2. verificar versão: npm -v
+3. instalar os pacotes cli do angular (npm install -g @angular/cli)
+4. verificar se instalação foi com sucesso (ng version)
