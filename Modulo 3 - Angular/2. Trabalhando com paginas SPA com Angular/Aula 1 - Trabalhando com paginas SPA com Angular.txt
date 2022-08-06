@@ -1,0 +1,10 @@
+
+--------------------------------------------------------------------------
+Introdução
+
+Angular é um framework.
+
+SPA - Single Page Application
+-> Troca de Templates View.
+
+Slide: https://drive.google.com/file/d/1NTEol9-CNtz8nDqauxBQgPBRHs2kYbC5/view
