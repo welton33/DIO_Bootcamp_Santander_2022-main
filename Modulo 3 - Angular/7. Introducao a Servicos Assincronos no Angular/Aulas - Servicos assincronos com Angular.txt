@@ -1,0 +1,6 @@
+
+--------------------------------------------------------------------------
+
+HttpClient
+
+-> É usado para fazer a comunicação entre cliente e servidor usando o protocolo HTTP.
