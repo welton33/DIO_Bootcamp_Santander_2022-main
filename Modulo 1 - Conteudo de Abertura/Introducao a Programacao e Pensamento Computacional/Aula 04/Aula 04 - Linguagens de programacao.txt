@@ -1,0 +1,96 @@
+Paradigmas de programação
+
+- Forma de resoluçao de programas com diretrizes e limitações específicas de cada paradigma utilizando linguagem de programação.
+
+Classificação
+
+Orientação à objeto: 
+Procedural: Chamadas sucessivas e procedimentos separados.
+Funcional: Instruções são baseadas em funções.
+Estruturado: Estrutura de blocos aninhados.
+Computação Distribuída: Funções executadas de forma independente.
+Lógico: 
+
+PE - Paradigma Estruturado (LP C)
+Sequência -> Decisão (Teste lógico) -> Iteração (funções, laços, condições).
+--> Aprender programação.
+
+POO
+- Um objeto é descrito por características específicas, comportamentos e estado.
+-> Atributo (Classe) - O que tenho?
+-> Método - Sou capaz de fazer
+-> Estados - Como faço?
+
+Pilares de POO
+- Herança
+- Encapsulamento
+- Polimorfismo
+- Abstração
+
+POO - Reuso de código
+PE - Problemas específicos e diretos.
+
+------------------------------------------------------------------------
+Análise de código
+
+Léxica - Sintaxe - Semântica
+
+Análise Léxica
+- Particionar - Classsificar - Eliminar 
+(Elementos tokens) -> [strings, identificadores] -> {comentários, espaços em branco}
+
+Análise Sintática (Corretude)
+- SINTAXE: Componente do sistema linguístico que interligam os contituintes da sentença, atribuindo-lhe uma estrutura.
+--> Depende da LP.
+
+Análise Semântica (lógica do programa)
+- É o estudo do resultado. Incide sobre a relação entre significantes, como: palavras, frases, sinais e símbolos.
+
+------------------------------------------------------------------------
+
+Características de um programa
+
+Desenvolvimento de programas. DIRETRIZES.
+- Legibilidade; "Estado que é legível". Coerência nas instruções.
+- Redigibilidade; Facilidade de escrita de código.
+- Confiabilidade; Faz o que foi programado para fazer.
+- Custo. Análise de impacto.
+
+------------------------------------------------------------------------
+
+Como um computador entende o programa?
+
+Programa: Um amontuado de palavras, senão for possível que o computador entenda.
+
+Baixo Nível - Programa objeto.
+
+Tradução -> Mais rápida - programas menores. (C++,Java)
+1 - Geração do programa
+2 - Execução do programa
+
+Interpretação - Maior flexibilidade (JavaScript, Ruby, Phyton)
+- Programa fonte executado. 
+
+------------------------------------------------------------------------
+
+Introdução à Linguagem de Programação (LP)
+
+Evolução da Tecnologia 
+
+Hardware -> Software
+
+- Colossus - ENIAC - EDVAC - PC'S
+
+Linguagens 
+- Assembly - 1949 - Linguagem de Montagem / Máquina - Primeira.
+
+- Problema de Decisão: Caracter lógico - S/N - Ideia -> Pertencimento.
+- Problema de Busca: Binário - Objetivo -> Recorrente em teorias de grafos. Ex: Clique.
+- Problema de Otimização: Maximizar / Minimizar.
+
+LP
+- Método padronizado composto por um conjunto de regras sintáticas e semânticas de implementação de um código.
+
+- Código 
+--> Tradução
+--> Interpretação

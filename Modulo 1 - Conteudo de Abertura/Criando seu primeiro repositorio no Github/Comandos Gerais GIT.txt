@@ -1,0 +1,43 @@
+-> $ git init.
+-> $ git add 
+-> $ git commit
+--------------------------------------------------------------------------------------------------------------
+CONFIGURAÇÕES DO GIT
+
+Comando $ git config --list - mostra todas as configurações salvas.
+
+CRIAR NOVO
+Comando $ git config --global -- user.email "seu email" - configura novo nome.
+Comando $ git config --global -- user.name "seu nome de usuario" - configura novo nome.
+
+RESETAR
+Comando $ git config --global -- unset user.email - reseta o email configurado ao dispositivo.
+Comando $ git config --global -- unset user.name - reseta o usuario configurado ao dispositivo.
+
+VERIFICA GIT REMOTE
+Comando $ git remote add origin ....link.... - adiciona o link da onde está o repositório remoto.
+Comando $ git remote -v - mostra os repositórios referenciados da máquina atual.
+
+INICIALIZAR O REPOSITÓRIO
+Comando $ git init - Por meio deste comando estamos criando um repositório dentro da pasta .git
+--> flag -a (mostra arquivos ocultos) acessar a pasta de gerenciamento do Git -> cd .git/ EX: ls -a / dir -a
+--------------------------------------------------------------------------------------------------------------
+
+VALIDANDO OS DADOS
+
+Comando $ git status - mostra o status do repositório atual.
+
+Comando $ git add *  - seleciona todos arquivos da Working Directory.
+Comando $ git add - seleciona todos arquivos da Working Directory.
+Comando $ git add nomeArquivo  - seleciona todos arquivos da Working Directory.
+
+git commit -m "mensagem do commit" - Move os arquivos do estágio final para unmodified.
+--------------------------------------------------------------------------------------------------------------
+
+MANIPULANDO O REPOSITÓRIO
+
+Comando $ git push origin master - sobe os arquivos daquele repositório para o remoto.
+Comando $ git pull origin master - puxa os arquivos daquele repositório remoto.
+--------------------------------------------------------------------------------------------------------------
+
+

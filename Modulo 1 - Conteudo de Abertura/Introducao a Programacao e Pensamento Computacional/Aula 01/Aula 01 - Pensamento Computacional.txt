@@ -1,0 +1,111 @@
+6. Pilar - Algoritmo
+
+- Programas: Processamento de dados 
+-> Instruções (passo a passo)
+--> O que precisa ser feito? - Qual a ordem de execução?
+
+Programa
+- Análise: Estudo de entrada / saída;
+- Algoritmo: Descreva o problema por meio de linguagem;
+- Codificação: Feito por meio de uma linguagem.
+
+Gerar um algoritmo
+- Problema
+- Definir dados de entrada; 
+- Definir processamneto;
+- Definir dados saída;
+- Utilizar um metódo;
+- teste e diagnóstico.
+
+--> Narrativa;
+--> Fluxograma;
+--> Pseudocódigo.
+
+-------------------------------------------------------------------------
+5. Pilar - Abstração
+
+ABSTRAIR: Observar, um ou mias elementos, avaliando características e propriedades em separado.
+
+ABSTRAÇÃO: Processo intelectual de isolamento de um objeto da realidade.
+
+GENERALIZAR: Torna-se geral, mais amplo, extensão.
+
+Representação de dados - características - pontos essencias.
+
+-------------------------------------------------------------------------
+4. Pilar - Padrões
+
+- Modelo base / Estrutura invariante / Repetição
+
+Ex: Processo de fotos de redes sociais
+- Compressão do arquivo e salvamento no servidor.
+
+Por que determinar padrões?
+- Generalizar, com objetivo de obter resolução para problemas diferentes.
+
+*Grau de similaridade
+*Grau de conhecimento de objetos x objetos desconhecidos
+
+1. Machine Learning
+2. Ciência de Dados
+3. Redes Neurais
+4. Inteligência Artificial
+
+-------------------------------------------------------------------------
+3. Pilar - Decomposição
+
+" Dado um problema complexo, devemos quebra-lo em problemas menores. Portanto, problemas mais fáceis e gerenciáveis."
+
+- Análise / Síntese (recompor);
+
+- Sequêncial (fila) / Paralelo (concomitantemente).
+
+Decompondo
+1. Identificar ou coletar dados
+2. Agregar os dados
+3. Funcionalidade
+
+-------------------------------------------------------------------------
+2. Habilidades Complementares
+
+Raciocícinio Lógico 
+- Pensamento estruturado para resolver um problema.
+* Indução - Fenômeno observado - Leis e teorias.
+* Dedução - Previsões e explicações.
+* Abdução - A partir de uma conclusão se extrai uma premissa.
+
+Inferência 
+- Sintética - Abdução / Indução.
+- Analítica - Dedução.
+
+Aperfeiçoamento
+- A partir de uma solução, determinar pontos de melhora e refinamento.
+
+-------------------------------------------------------------------------
+1. Introdução
+
+Pensamento computacional?
+- Processo de pensamento envolvido na expressão de soluções em passos computacionais ou algoritmos que podem ser implementados no computador.
+(Aho,2011;Lee,2016)
+
+- Habilidade generalista.
+
+- Divisão em 4 pilares:
+* Decomposição: Dividir um problema complexo em subproblemas. 
+* Reconhecimento de padrões: Identificar padrões ou tendências.
+* Abstração: Extraplorar o conceito do problema para uma forma generalista.
+* Design de algoritmos: Automatizar - Definir passo a passo a solução do problema.
+EX: Input -> Operator -> Output.
+
+Processo Contínuo =  Refinamento - Teste - Análise (Círculo vicioso)
+- Definir uma solução;
+- Testar a solução; 
+- Aperfeiçoamento da solução encontrada.
+
+Habilidades Humanas = 1 Abstração (Resolução de problemas) / 2 Automatização (Expressão de Solução) / 3 Análise (Execução da solução e avaliação (refinamento)
+
+Competências
+- Pensamento sistemático;
+- Colaboração dentro da equipe;
+- Criatividade e design;
+- Facilitador.

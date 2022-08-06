@@ -1,0 +1,71 @@
+Instruções de Entrada / Saída
+
+Dados -> Processamento -> Resultado
+
+Entrada
+- Consiste na inserção e recebimento de dados do mundo real, por meio de ação de alguma interfcae, seja teclado, mouse, arquivos, entre outros.
+
+Saída
+- Consiste na impressão dos dados do mundo abstrato, digital por meio de ação de alguma interface.
+--> Programada (Condicional ou Incondicional) e Interrupção (Periféricos).
+
+-------------------------------------------------------------------------
+Funções
+
+- As funções, ou sub-rotinas são blocos de instruções que realizam tarefas específicas. (Decomposição do algoritmo)
+
+- São blocos de instruções (código), identificados por nomes e parâmetros.
+
+- Definição -> Nome -> Invocação -> Variável local (São destruídas após sua ação).
+
+-------------------------------------------------------------------------
+Vetores e matrizes
+
+Vetores - Um vetor é caracterizado por uma variável dimensionada com tamanho pré-fixado.
+
+Matriz - É uma tabela organizada em linhas e colunas no formato m x n, onde m representa o número de linhas (horizontal) e o n o número de colunas (vertical).
+
+-------------------------------------------------------------------------
+Estruturas de Repetição
+
+- Repetir um determinado trecho de um programa.
+-> Condições de parada.
+--> Número de repetições pré-fixada;
+--> Condição a ser satisfeita.
+
+- Redução de linhas;
+- Compreensão facilitada;
+- Redução de erro.
+
+-------------------------------------------------------------------------
+Estruturas Condicionais e Operadores
+
+Condição: Estado de uma pessoa ou coisa
+Condicional: Condição ou implica em suposição
+
+- Simples: Condição -> Operação.
+- Composta: Condição -> Operação / Condição -> Exceção;
+- Encadeada: Combina simples e composta.
+
+Operadores lógicos
+
+- AND (interseção) / OR (união) / NOT (inversão de negação)
+
+-------------------------------------------------------------------------
+Instruções Primitivas
+
+- São linguagens de palavras-chaves (vocabulário) de uma determinada de programção que a finalidade de comandar um computador que irá tratar os dados.
+
+- Variáveis / Constantes 
+- Operadores
+
+-------------------------------------------------------------------------
+Tipologia e Variáveis
+
+Informação:
+- Dados - tratados e processados (numéricos, caractere, lógico)
+--> Variável: Pode assumir qualquer valor definido a ela.
+--> Constante: não altera seu valor.
+---> Ação: Modifica o estado / Controle: Vigiada, controle.
+
+- Instruções: Operações

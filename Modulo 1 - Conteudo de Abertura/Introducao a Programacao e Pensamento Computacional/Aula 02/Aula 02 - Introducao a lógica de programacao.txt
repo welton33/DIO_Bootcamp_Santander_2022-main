@@ -1,0 +1,24 @@
+Técnicas de lógica de programação
+
+Técnica Linear: Modelo Tradicional - Não tem vínculo.
+- Execução sequenciada: Recursos limitados e única dimensão.
+
+Técnica Estruturada: Organização, disposição e ordem dos elementos essenciais que compõem um corpo (concreto ou abstrato).
+
+Técnica Modular: Controlada por um conjunto de regras.
+- Partes Independentes,
+-> Input - Process - Output.
+
+
+-------------------------------------------------------------------------
+O que é a lógica?
+
+Problema: 
+
+"Probelma é uma questão que foge a uma determinada regra, ou melhor é um desvio de percurso, o qual impede de atingir um objetivo com eficiência e eficácia."
+
+Lógica:
+
+"Parte da filosofia que trata das formas do pensamento em geral (dedução, indução, hipótese, inferência etc.) e das operações intelectuais que visam à determinação do que é verdadeiro ou não."
+
+- "Organização e planejamento das instruções, assertivas em um algoritmo, a fim de viabilizar a implantação de um programa."
