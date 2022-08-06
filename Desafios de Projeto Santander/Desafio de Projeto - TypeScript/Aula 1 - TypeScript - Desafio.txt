@@ -1,0 +1,59 @@
+
+-------------------------------------------------------------------------
+
+-------------------------------------------------------------------------
+
+-------------------------------------------------------------------------
+tsconfig.json
+
+"rootDir": ex: "./src" -> Specify the root folder within your source files. (Colocando os arquivos que quero que sejam executados, caminho).
+--> Ao final do arquivo add: "include": ["src/**/*.ts"] // inclui os arquivos em src
+
+"outDir": ex: "./dist" -> Specify an output folder for all emitted files. (Definindo uma pasta onde serão salvos as compilações para .js).
+
+-------------------------------------------------------------------------
+
+Por que usar TS?
+
+-> Adiciona definição estática de tipos:
+ - Funcionalidades do código mais explicitas;
+ - Maior segurança durante o desenvolvimento;
+ - Detecta erros durante a compilação que só seriam percebidos em execução;
+
+-> Compila um JavaScript mais resiliente;
+-> Ajuda a desenvolver boas práticas de programação.
+-------------------------------------------------------------------------
+
+Comandos
+
+tsc --init -> inicializa o arquivo de tsconfig - configuração do typescript.
+
+npm run watch -> responsável por compilar o arquivo .ts enquanto está sendo atualizado. (Adicionado em package.json "scripts" -> add "watch": "tsc --watch" 
+-------------------------------------------------------------------------
+
+O que é Typescript?
+
+-> Superset do JavaScript
+ - Linguagem construída por cima do JS;
+ - Adiciona features à linguagem original;
+ - Compila para JS.
+
+-> Adiciona definição estátiva de tipos;
+ - Funcionalidade do código mais explícitas;
+ - Maior segurança durante o desenvolvimento;
+ - Detecta erros durante a compilação que só seriam percebidos em execução;
+
+-> Compila um JavaScript mais resiliente;
+-> Ajuda desenvolver boas práticas de programação.
+
+Criando um projeto
+
+-> As instalções é para acessar as bibliotecas necessárias.
+
+1. npm init 
+2. npm install --save -dev typescript
+3. npm install lite-server
+4. criar um arquivo index.html
+5. em package.json -> "scripts" -> add "start": "lite-server"
+6. criar um arquivo.js
+7. npm start
