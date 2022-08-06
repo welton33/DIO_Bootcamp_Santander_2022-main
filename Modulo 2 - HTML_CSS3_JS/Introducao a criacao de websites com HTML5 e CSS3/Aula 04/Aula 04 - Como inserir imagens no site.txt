@@ -1,0 +1,10 @@
+
+-------------------------------------------------------------------------
+Tag Img
+
+- Não possui tag de fechamento.
+- o src (source) é obrigatório.
+
+<img>
+<img src="img/avatar.jpg">
+<img alt="Foto de Mateus Frahm"> (Mostra descrição da foto quando não carregada, leitores de imagens usam essa descrição)

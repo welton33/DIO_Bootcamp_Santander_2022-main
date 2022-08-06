@@ -1,0 +1,72 @@
+/* classe aplicada no body da página*/
+body { 
+    background: rgba(204, 204, 204, 0.527); 
+    font-family: 'Times New Roman', Times, serif;
+    max-width: 900px;
+    margin: auto;
+}
+
+/* classe aplicada na foto do perfil*/
+.photo{ 
+    border: 1px solid rgb(8, 8, 8);
+    border-radius: 50px;
+}
+
+/* classe aplicada para os títulos da página*/
+#title, .subtitle, .post_title { 
+    color:rgb(0, 0, 0);
+}
+
+/* classe aplicada para o titulo principal página*/
+#title{
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+/* classe aplicada para a tag <a>*/
+a{
+    color: rgb(2, 19, 250);
+}
+
+/* classe aplicada no article*/
+.post_title { 
+    font-size: 16px;
+    font-style: italic;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+/* classe aplicada no titulo do post #1*/
+.post {
+    background: #fff;
+    padding: 15px;
+    border: 3px solid rgba(0, 0, 0, 0.459);
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+/* classe aplicada na tag <p>*/
+.post_content{
+    margin: 0;
+    margin-bottom: 15px;
+    text-align: justify;
+    /* text-transform: capitalize; */
+}
+
+/* classe aplicada na imagem do article*/
+.post_image{
+    border-radius: 15px;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+/* classe aplicada na tag <ul>*/
+.contacts_list{
+    list-style-type: none;
+    padding-left: 15px;
+}
+
+/* classe aplicada nos elementos <li> <a>*/
+.contacts_list li a{
+    text-decoration: none;
+}

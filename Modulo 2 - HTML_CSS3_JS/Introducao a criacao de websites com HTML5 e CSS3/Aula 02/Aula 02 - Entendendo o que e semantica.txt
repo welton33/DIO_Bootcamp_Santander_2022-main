@@ -1,0 +1,10 @@
+Semântica 01 
+
+- Veio para substituir as divs.
+
+<section> -> Define um conjunto de conteúdos.
+<header> -> Cabeçalho.
+<article> -> Conteúdo relevante.
+<aside> -> Links, refrências através de uma barra lateral.
+<footer> -> rodapé da página
+<h1>-<h6> -> Títulos, Obs: apenas h1 por página.

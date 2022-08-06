@@ -1,0 +1,22 @@
+
+Box-model
+- o layout de um site o navegador representa cada elemento HTML como uma caixa retangular.
+
+Conceitos básicos
+
+Margin - são espaçamentos entre elementos;
+Border - são as bordas;
+padding - é um espaçamento entre as bordas e o conteúdo
+content - é o que o seu bloco representa, um texto, uma imagem, um vídeo.
+
+
+-------------------------------------------------------------------------
+
+O que são seletores?
+- seletores são elementos HTML e dentro da estrutura temos as declarações.
+
+ID x Classe
+
+<header id="header" class="header"></header> -> #header (apenas 1 vez na página>
+<header class="header"></header> .header
+

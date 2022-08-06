@@ -1,0 +1,20 @@
+Tim Berners-Lee em 1991.
+
+HTML 1 - 1991.
+HTML 2 - 1995.
+HTML 3 - 1997.
+HTML 4 - 1997.
+HTML 5 - 2014.
+
+-> Elemento HTML.
+-> Estrutura Básica.
+
+<!DOCTYPE html> //Indica ao navegador o que você está escrevendo.
+<html>
+ <head>
+  <meta> // Ex: Charset, como o navegador irá fazer o encode da página.
+  <title></title> // Fica na aba do navegador.
+ </head>
+ <body>
+ </body>
+</html>

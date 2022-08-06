@@ -1,0 +1,50 @@
+Estilizando listas
+
+ul
+- list-style-type: square;
+
+ol
+- list-style-type: upper-rome;
+
+ul
+- list-style-type: "\1F44D";
+
+ul 
+- list-style-image: url ("rocket.png");
+
+
+------------------------------------------------------------------------
+Estilizando textos
+
+font-family - defini o tipo da fonte
+font-size - defini o tamanho
+font-style - defini a apresentação da fonte (normal,italic)
+font-weight - defini o peso da fonte (bold)
+text-transform - defini entre maiúsculo e minúsculo (uppercase, lowercase, capitalize)
+text-decoration - defini o destaque do texto (underline, overline, line-through)
+
+-------------------------------------------------------------------------
+Estilizando elementos
+
+Definindo valores seguindo:
+
+->Paddin e Margin
+top - right - bottom - left
+
+->Background
+- background-color: green;
+- background-color: #008800;
+- background: #008800.
+
+
+->Border
+Largura: pixels, centímetros, milímetros.....
+Cor: blue, #0000ff....
+Estilo: sólida (solid), pontilhada (dotted), tracejada (dashed).....
+
+
+->Border-radius
+border-radius: 10px;
+border-radius: 50%;
+border-radius: 10% 20%;
+border-radius: 10% 20% 15% 22%.

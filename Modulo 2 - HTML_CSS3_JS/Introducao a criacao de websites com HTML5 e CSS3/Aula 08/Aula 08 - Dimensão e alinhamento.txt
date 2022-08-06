@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------
+Propriedades de dimensões e alinhamento
+
+Width
+Height
+
+Max-width
+Max-height
+
+Margin
+
+Text align

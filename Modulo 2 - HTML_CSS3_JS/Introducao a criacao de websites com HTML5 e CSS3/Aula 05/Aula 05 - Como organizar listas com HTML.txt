@@ -1,0 +1,14 @@
+
+-------------------------------------------------------------------------
+Tags li, ol e ol
+
+<ul> - ordem não importa
+item 1
+item 2
+
+<ol> - ordem importante
+1. item 1
+2. item 2
+
+<li> - item de uma lista
+

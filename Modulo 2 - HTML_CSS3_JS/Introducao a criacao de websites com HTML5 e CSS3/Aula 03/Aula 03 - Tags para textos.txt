@@ -1,0 +1,18 @@
+
+-------------------------------------------------------------------------
+Tags para links
+
+<a>Link</a>
+
+<a href="https://www.linkedin.com/in/mateus-frahm-a573651b4/">Linkedin</a>
+<a href="mailto:mateus.frahm@gmail.com">Email</a>
+
+<a target="_blank">Link</a> -> Abre em uma nova página em branco.
+
+-------------------------------------------------------------------------
+Tags para textos
+
+<h1>Título da página</h1>
+<h2>Título de seção</h2>
+<h3>Título de artigos</h3>
+<p>Conteudo do artigo</p>
