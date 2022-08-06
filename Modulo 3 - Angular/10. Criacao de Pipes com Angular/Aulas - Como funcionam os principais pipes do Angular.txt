@@ -1,0 +1,10 @@
+
+--------------------------------------------------------------------------
+
+Angular Pipes
+
+-> Pipes são funções simples que você pode usar em expressões nos Templates para aceitar um valor de entrada e retornar um valor transformado.
+
+Pipes Nativos
+
+-> https://angular.io/guide/pipes
