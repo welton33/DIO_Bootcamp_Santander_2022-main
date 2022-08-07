@@ -25,32 +25,25 @@ Agradecimentos a Cassio F.
 
 Código:
 
-// Abaixo segue um exemplo de código que você pode ou não utilizar
 import java.io.IOException;
 import java.util.Scanner;
-import java.text.DecimalFormat;
 
-public class  Desafio {
+public class  IDADES {
+  
     public static void main(String[] args) throws IOException {
-        
         Scanner leitor = new Scanner(System.in);
-        int n = leitor.nextInt();
-        
-        DecimalFormat df = new DecimalFormat("0.00");
-        
-        int cont = 0; // contador de idades inseridas
-        double soma = 0; // acumulador de idades
-        
-//TODO: Complete os espaços em branco com uma possível solução para o desafio
-        
-        while (n >= 1){
-            if (n >= 0) {
-                soma+= n;
-                cont++;
-            }
-            n = leitor.nextInt();
+        int cont = 0;
+        double soma = 0;
+        double n = 0;
+        while (n >=0) {
+             n = leitor.nextInt();
+             if (n >= 0) {
+                 cont++;
+                 soma+=n;
+           }
+           
         }
-        double media =  soma / cont ;
-        System.out.println(df.format(media));
+        double media =  soma / cont;
+        System.out.println(String.format("%.2f", media));
     }
 }
